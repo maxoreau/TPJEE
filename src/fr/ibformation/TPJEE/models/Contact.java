@@ -1,4 +1,4 @@
-package fr.ibformation.TPJavaEE.models;
+package fr.ibformation.TPJEE.models;
 
 public class Contact {
 	private String nom;

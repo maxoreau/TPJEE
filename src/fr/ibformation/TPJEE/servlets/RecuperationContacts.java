@@ -1,4 +1,4 @@
-package fr.ibformation.TPJavaEE.servlets;
+package fr.ibformation.TPJEE.servlets;
 
 import java.io.IOException;
 import java.util.List;
@@ -10,9 +10,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import fr.ibformation.TPJavaEE.dao.ContactDaoInDatabase;
-import fr.ibformation.TPJavaEE.dao.daoGenerique;
-import fr.ibformation.TPJavaEE.models.Contact;
+import fr.ibformation.TPJEE.dao.ContactDaoInDatabase;
+import fr.ibformation.TPJEE.dao.daoGenerique;
+import fr.ibformation.TPJEE.models.Contact;
 
 /**
  * Servlet implementation class Servlet1

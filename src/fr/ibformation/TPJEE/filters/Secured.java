@@ -1,4 +1,4 @@
-package fr.ibformation.TPJavaEE.filters;
+package fr.ibformation.TPJEE.filters;
 
 import java.io.IOException;
 import javax.servlet.Filter;

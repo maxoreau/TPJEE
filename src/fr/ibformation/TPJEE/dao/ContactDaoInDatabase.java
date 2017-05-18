@@ -1,4 +1,4 @@
-package fr.ibformation.TPJavaEE.dao;
+package fr.ibformation.TPJEE.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -8,8 +8,7 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-
-import fr.ibformation.TPJavaEE.models.Contact;
+import fr.ibformation.TPJEE.models.Contact;
 
 public class ContactDaoInDatabase implements daoGenerique<Contact> {
 
