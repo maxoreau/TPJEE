@@ -1,4 +1,4 @@
-package fr.ibformation.TPJavaEE.dao;
+package fr.ibformation.TPJEE.dao;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

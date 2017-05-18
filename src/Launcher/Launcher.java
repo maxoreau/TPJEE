@@ -1,8 +1,8 @@
 package Launcher;
 
-import fr.ibformation.TPJavaEE.dao.ContactDaoInDatabase;
-import fr.ibformation.TPJavaEE.dao.daoGenerique;
-import fr.ibformation.TPJavaEE.models.Contact;
+import fr.ibformation.TPJEE.dao.ContactDaoInDatabase;
+import fr.ibformation.TPJEE.dao.daoGenerique;
+import fr.ibformation.TPJEE.models.Contact;
 
 public class Launcher {
 

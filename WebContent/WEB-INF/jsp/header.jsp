@@ -32,15 +32,15 @@
 	<ul id="menu">
 		<c:choose>
 			<c:when test="${jeton}">
-				<li><a href="/TPJavaEE/logout">logout</a></li>
+				<li><a href="/TPJEE/logout">logout</a></li>
 			</c:when>
 			<c:otherwise>
-				<li><a href="/TPJavaEE/login">login</a></li>
+				<li><a href="/TPJEE/login">login</a></li>
 			</c:otherwise>
 		</c:choose>
-		<li><a href="/TPJavaEE/secured/recuperationcontacts">Afficher les contacts</a></li>
-		<li><a href="/TPJavaEE/secured/saisircontact">Saisir un	contact</a></li>
-		<li><a href="/TPJavaEE/secured/deletecontact">Supprimer un contact</a></li>
+		<li><a href="/TPJEE/secured/recuperationcontacts">Afficher les contacts</a></li>
+		<li><a href="/TPJEE/secured/saisircontact">Saisir un	contact</a></li>
+		<li><a href="/TPJEE/secured/deletecontact">Supprimer un contact</a></li>
 	</ul>
 
 </jsp:root>
