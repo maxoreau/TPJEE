@@ -5,7 +5,7 @@
 	<jsp:scriptlet></jsp:scriptlet>
 	
 	
-	<form method="post" action="/TPJavaEE/identification">
+	<form method="post" action="/TPJEE/identification">
             <fieldset>
                 <legend>login</legend>
                 <p>Veuillez entrer vos identifiants</p>

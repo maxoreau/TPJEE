@@ -32,10 +32,10 @@
 	<ul id="menu">
 		<c:choose>
 			<c:when test="${jeton}">
-				<li><a href="/TPJavaEE/logout">logout</a></li>
+				<li><a href="/TPJEE/logout">logout</a></li>
 			</c:when>
 			<c:otherwise>
-				<li><a href="/TPJavaEE/login">login</a></li>
+				<li><a href="/TPJEE/login">login</a></li>
 			</c:otherwise>
 		</c:choose>
 		<li><a href="/TPJavaEE/secured/recuperationcontacts">Afficher les contacts</a></li>

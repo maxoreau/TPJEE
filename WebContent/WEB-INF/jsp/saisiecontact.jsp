@@ -9,7 +9,7 @@
 	</div>
 
 	<div id="wrap" class="wraper">
-		<form method="post" action="/TPJavaEE/secured/saisircontact">
+		<form method="post" action="/TPJEE/secured/saisircontact">
 			<fieldset>
 				<legend>Création d'un nouveau contact</legend>
 				<p>Veuillez entrer les coordonées du contact</p>

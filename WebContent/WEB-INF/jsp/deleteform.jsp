@@ -9,7 +9,7 @@
 	</div>
 
 	<div id="wrap" class="wraper">
-		<form method="post" action="/TPJavaEE/secured/deletecontact">
+		<form method="post" action="/TPJEE/secured/deletecontact">
 			<fieldset>
 				<legend>contact à supprimer</legend>
 				<p>
