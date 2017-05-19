@@ -11,18 +11,18 @@
 	<div id="wrap" class="wraper">
 		<form method="post" action="/TPJEE/secured/saisircontact">
 			<fieldset>
-				<legend>Création d'un nouveau contact</legend>
-				<p>Veuillez entrer les coordonées du contact</p>
+				<legend>Contact creation</legend>
+				<p>Please enter contact informations</p>
 				<p>
-					<label for="nom">nom</label> <input type="text" id="nom" name="nom"
+					<label for="nom">last name</label> <input type="text" id="nom" name="nom"
 						value="" size="20" maxlength="60" />
 				</p>
 				<p>
-					<label for="prenom">prenom</label> <input type="text" id="prenom"
+					<label for="prenom">first name</label> <input type="text" id="prenom"
 						name="prenom" value="" size="20" maxlength="60" />
 				</p>
 				<p>
-					<label for="numero">numero</label> <input type="text" id="numero"
+					<label for="numero">phone number</label> <input type="text" id="numero"
 						name="numero" value="" size="20" maxlength="60" />
 				</p>
 				<p>

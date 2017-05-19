@@ -17,15 +17,15 @@
 
 	<c:choose>
 		<c:when test="${jeton}">
-			<p>Connecté</p>
+			<p>Connected</p>
 			<p>
-				Utilisateur : 
+				User : 
 				<c:out value="${login}" />
 			</p>
 		</c:when>
 		<c:otherwise>
-			<p>Déconnecté</p>
-			<p>Utilisateur inconnu</p>
+			<p>Not connected</p>
+			<p>Unknown user</p>
 		</c:otherwise>
 	</c:choose>
 
@@ -38,9 +38,9 @@
 				<li><a href="/TPJEE/login">login</a></li>
 			</c:otherwise>
 		</c:choose>
-		<li><a href="/TPJEE/secured/recuperationcontacts">Afficher les contacts</a></li>
-		<li><a href="/TPJEE/secured/saisircontact">Saisir un	contact</a></li>
-		<li><a href="/TPJEE/secured/deletecontact">Supprimer un contact</a></li>
+		<li><a href="/TPJEE/secured/recuperationcontacts">Show all contacts</a></li>
+		<li><a href="/TPJEE/secured/saisircontact">Add new contact</a></li>
+		<li><a href="/TPJEE/secured/deletecontact">Delete contact</a></li>
 	</ul>
 
 </jsp:root>
